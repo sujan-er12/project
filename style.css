@@ -1,0 +1,104 @@
+.log{
+    font-size: 30px;
+    color:rgb(7, 5, 65);
+    padding: auto;
+    font-style: italic;
+}
+.p{
+    
+    border-spacing:0lvh;
+    background-color:rgb(218, 198, 82);
+    border-radius: 5cap;
+    margin: inline 5px;
+    border: 25px solid rgb(29, 3, 3);
+    padding: 40px;
+}
+.b{
+    background-color:rgb(238, 255, 0);
+    border-top-left-radius: 0%;
+    box-shadow: 5cm;
+    
+}
+.t{
+    text-align: center;
+    padding-left: 0%;
+    border-width: 0pc;
+    box-sizing: border-box;
+    border-radius: 15%;
+    background-blend-mode: luminosity;
+    
+}
+    .h{
+        background-color: blueviolet;
+        
+    }
+    /***********************************/
+    #marquee {
+        overflow: hidden;           /* Hides the overflow */
+        white-space:nowrap;        /* Prevents text from wrapping */
+    }
+    
+    #marquee h1 {
+        display:inline-block;      /* Makes the text an inline-block */
+        padding: right 10px;         /* Starts text off-screen */
+        animation:colorChange 3s linear infinite;  /* Applies the animation */
+    }
+    
+    @keyframes marquee {
+        from {
+            transform: translateX(100%); /* Start position off-screen to the right */
+        }
+        to {
+            transform: translateX(-100%); /* End position off-screen to the left */
+        }
+    }
+    @keyframes colorChange {
+        10% {
+            color: rgb(225, 23, 239);
+        }
+        25% {
+            color: blue;
+        }
+        50% {
+            color: green;
+        }
+        75% {
+            color: purple;
+        }
+        100% {
+            color: red;
+        }
+    }
+    
+    /**************************************/
+    
+    input[type="text"]
+    {
+        background-color: aqua;
+        padding: 7px;
+        font-weight: 7px;
+        -moz-box-align: center;
+    }
+    input[type="password"]
+    {
+        
+        background-color: aqua;
+        padding: 7px;
+        font-weight: 7px;
+        -moz-box-align: center;
+    }
+   #email{
+    background-color: aqua;
+    padding: 7px;
+    font-weight: 7px;
+   }
+   input[type='text'],input[type='password']
+   {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 5px;
+    box-sizing: border-box;
+   }
+    
